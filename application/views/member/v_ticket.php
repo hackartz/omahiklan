@@ -17,10 +17,12 @@
     <input type="hidden" id="ticket_member" value="<?php echo $ticket; ?>"/>
     <?php if($is_agree_premium) { ?>
 <!--    <button class="btn btn-inverse">KONFIRMASI DISINI</button>-->
+        <a href="<?php echo base_url(); ?>member/cetak_faktur" class="btn btn-inverse" target="_blank">cetak detail pembayaran</a>
     <p class="text-right c-setuju"><button class="btn btn-success btn-large disabled" id="sudah_setuju">Setuju</button></p>
     <?php } else { ?>
         <p class="text-right c-setuju"><button class="btn btn-success btn-large" id="setuju">Setuju</button></p>
     <?php } ?>
+
 
 </div>
 

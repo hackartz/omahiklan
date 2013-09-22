@@ -145,7 +145,17 @@ class Member extends CI_Controller {
         $this->load->view('member/v_home',$data);
     }
 
+    public function cetak_faktur() {
+        $sess_id = $this->session->userdata('user_id');
+        define('FPDF_FONTPATH',$this->config->item('fonts_path'));
+        $this->load->library('fpdf');
+        $data['data_member'] = $this->get_member_detail($sess_id);
+        $data['data_premium'] = $this->get_premium_detail($sess_id);
+        $this->load->view('member/v_cetak_faktur',$data);
+    }
+
     public function gen_ticket() {
+
         //sleep(3);
         $sess_id = $this->session->userdata('user_id');
         if(!empty($sess_id)) {
