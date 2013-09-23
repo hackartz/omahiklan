@@ -69,7 +69,7 @@
                         <?php } else { ?>
                             <li class=""><a href="" id="kelola_produk" class="muted"><i class="icon-plus-sign"></i> Kelola Produk</a></li>
                         <?php } ?>
-                        <li class=""><a href="" id="st_iklan"><i class="icon-dashboard"></i> Statistik Iklan </a></li>
+<!--                        <li class=""><a href="" id="st_iklan"><i class="icon-dashboard"></i> Statistik Iklan </a></li>-->
                         <?php if($is_premium) {?>
                             <?php if(empty($count_pending_message)) {?>
                                 <li class=""><a href="" id="pesan"><i class="icon-envelope"></i> Messages </a></li>

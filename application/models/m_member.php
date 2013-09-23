@@ -2,7 +2,7 @@
 
 class M_member extends CI_Model {
 
-    private function is_user_validated($email) {
+    public function is_user_validated($email) {
 
         $member_detail = $this->get_member_detail("",$email);
         $this->db->where('user_id',$member_detail->id);
@@ -21,8 +21,8 @@ class M_member extends CI_Model {
     }
 
     public function can_login() {
-//       $email = "hackartz.temp@gmail.com";
-//       $password = "deadpirate";
+//        $email = "andika@sharklasers.com";
+//        $password = "andika";
         $email = $this->input->post('email',true);
         $password = $this->input->post('password',true);
         $this->db->where('email',$email);

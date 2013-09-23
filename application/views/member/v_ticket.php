@@ -1,12 +1,12 @@
 <p class="m-judul">Upgrade to Premium</p>
 <div class="m-content">
     <p><span id="" class="label label-info">#<?php echo $ticket; ?></span></p>
-    <p>Halaman ini akan jika anda sudah menjadi premium member
+    <p>Halaman ini tidak aktif jika anda sudah menjadi premium member
     dengan biaya administrasi sebesar :    </p>
     <ul>
-        <li>1 bulan Rp 500.000,-</li>
-        <li>6 bulan Rp 2.500.000,-</li>
-        <li>setahun Rp 4.500.000,-</li>
+        <li>3 bulan Rp 500.000,-</li>
+<!--        <li>6 bulan Rp 2.500.000,-</li>-->
+<!--        <li>setahun Rp 4.500.000,-</li>-->
     </ul>
 
     <p>Silahkan transfer ke salah satu rekening kami

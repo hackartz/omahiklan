@@ -37,7 +37,7 @@
         </div>
         <div class="modal-footer">
             <p class="text-left"><a href="<?php echo base_url();?>">back to home</a></p>
-              &copy; copyright 2013 - omahiklan.com
+            &copy; copyright 2013 - omahiklan.com
         </div>
     </div>
 </div>

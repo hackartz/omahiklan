@@ -27,7 +27,7 @@
 <div class="dashboard">
     <div class="row">
         <div class="container">
-            <!-- <img src="img/omah.png" alt=""> -->
+            <img src="<?php echo base_url();?>img/omahbanner.png" alt="">
             <ul class="menu pull-right">
                 <li class="home"><a href="<?php echo base_url(); ?>"> <i class="icon-home"></i>home</a></li>
                 <li class="daftar" id="daftar"><a href="#" id="daftar"><i class="icon-external-link"></i> daftar</a></li>
